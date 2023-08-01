@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang='en-US'>
+<head>
+<title>Tristan M. Stuart</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="../../logo.jpg" type="image/jpg">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,  600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<style>
+@font-face {
+  font-family: SpyAgency;
+  src: url('spyagencyv3.ttf');
+}
+
+* {
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgcolor: #eee;
+  --fgcolor: #222;
+  --boardfg: black;
+  --boardbg: white;
+  --high:    #ccc;
+  --medhigh: #aaa;
+  --lowhigh: #888;
+  --highlow: #666;
+  --medlow:  #555;
+  --low:     #444;
+  --lowlow:  #333;
+  --font: 'Fira Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: var(--font);
+  background: var(--bgcolor);
+  color: var(--fgcolor);
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  margin-left: .6rem;
+}
+
+h2 {
+  font-variant: small-caps;
+  font-size: 2rem;
+  line-height: .2rem;
+}
+
+</style>
+
+</head>
+<body>
+<main>
+<style>
+#name {
+  text-shadow: 0 0 .2rem #ddd;
+  font-weight: 900;
+  font-size: 3rem;
+	font-family: SpyAgency, var(--font);
+  margin-bottom: 0;
+}
+#role {
+  font-size:1.22rem;
+  font-weight: 900;
+  font-variant: small-caps;
+  margin-top: 0;
+}
+#about {
+  display: grid;
+  grid-template-areas: "name" "role " "contact";
+}
+#contact {
+  font-size:1.22rem;
+}
+</style>
+
+<div id=about>
+<h1 id=name style='grid-area: name'>Tristan M. Stuart</h1>
+<div id=role style='grid-area: role'>Software Engineer</div>
+<div id=contact style='grid-area: contact'>tristan6090@proton.me&emsp;github.com/tmstux</div>
+</div>
+
+<style></style>
+<p id=mission><b>Providing the best solutions to the worst problems</b></p>
+
+<style>
+.employer {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+.employer .role {
+  display: flex;
+  justify-content: space-between;
+}
+.employer .role .dates {
+  font-size: .85rem;
+  color: #777;
+}
+</style>
+
+<div id=experience>
+<h2>Experience</h2>
+
+<div class=employer>
+
+<div class=role>
+  <div><strong>Software Engineer</strong></div>
+  <div class=dates>June 2022 - Present</div>
+</div>
+<div class=entity>National Aerospace Solutions<span class=loc> (Tullahoma, Tennessee)</span></div>
+</div>
+
+<ul class=deets>
+
+<li class=deet>Developed science applications focused on physics simulation and modelling with Numpy and Scipy</li>
+
+<li class=deet>Mentored by engineers of various disciplines to increase my understanding of the science behind applications developed by the team</li>
+
+<li class=deet>Optimized and developed GUI's for applications originally programmed by Aerospace engineers</li>
+
+<li class=deet>Rewrote/wrapped legacy tools developed in the 70's to allow Engineers to use them in modern interfaces such as Python3</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+
+<div class=role>
+  <div><strong>Web Developer</strong></div>
+  <div class=dates>April 2021 - June 2022</div>
+</div>
+<div class=entity>Old Hickory Buildings LLC.<span class=loc> (Remote, Murfreesboro, Tennessee)</span></div>
+</div>
+
+<ul class=deets>
+
+<li class=deet>Developed and maintained a 3D barn builder using Vuejs, Threejs, and Tailwindcss with a PHP and SQL backend</li>
+
+<li class=deet>Provided customer support to users having issues with the website</li>
+
+<li class=deet>Reported several fishing and whaling attempts to supervisor and administrator</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+
+<div class=role>
+  <div><strong>Dishwasher • Prep • Server • Drive-thru</strong></div>
+  <div class=dates>2016 - 2019</div>
+</div>
+<div class=entity>Jim'n'Nick's BBQ<span class=loc> (Remote, USA)</span></div>
+</div>
+
+<ul class=deets>
+
+<li class=deet>Diligently worked on other kitchen duties while remaining focused on my custodial role</li>
+
+<li class=deet>Volunteered to assist others when business was slow</li>
+
+<li class=deet>Attained TABC License</li>
+
+</ul>
+
+</div>
+
+<ul class=deets>
+
+</ul>
+
+</div>
+
+<div id=projects>
+<h2>Projects</h2>
+<ul>
+<li>Homelab Virtual Machines to perform all professional and school related tasks</li>
+<li>Github repositories to sustain a portable workflow across systems</li>
+<li>Homelab Containers/VMs to practice administrative work</li>
+<li>Automated resume generator in Golang</li>
+</ul>
+</div>
+
+<div id=education>
+<h2>Education</h2>
+<ul>
+
+<li>Bachelors of Science, Computer Science, Mathematics minor, Middle Tennessee State University, 2021, 3.6 GPA (4.0=A)</li>
+<li>Masters of Science, Computer Science, University of Tennessee Knoxville, (August 2023 - ~2025)</li>
+
+</ul>
+</div>
+
+<div id=skills>
+<h2>Skills</h2>
+<ul>
+<li>Linux/UNIX Systems Architecture and Administration</li>
+<li>System Software Design and Development</li>
+<li>Scripted Automation</li>
+<li>Terminal User Interface (TUI) Specialization</li>
+<li>Programming Language Agnostic</li>
+</ul>
+</div>
+
+<style>
+#keywords {
+  padding-left: 2rem;
+}
+</style>
+<br>
+<h2>Keywords</h2>
+<div id=keywords>Linux • Ubuntu • Debian • Red Hat • Containers • Podman • Docker • Virtual Machines • VMWare • Virtual Box • UNIX • Terminal (TUI) • Command Line (CLI) • Secure Shell (SSH) • TCP/IP • UDP • Sockets • HTTP • SFTP • Go (golang) • Java • Perl • Python • Bash • POSIX Shell • C • C++ • C# • gdb • gcc • HTML • CSS • JavaScript • PHP •  Websockets • NodeJS/NPM • Threejs •  Tailwindcss •  Vuejs •  SQL • YAML • JSON • XML • TOML • Markdown • Pandoc • curl • Vim/Vi • VSCode • TMUX • screen • Lynx • w3m • Git • GitHub • GitLab</div>
+
+</main>
+</body>
+</html>
